@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded&display=swap');
+ @font-face{
+ 	src: url('font/BebasNeue.otf');
+ 	font-family: 'Muli', sans-serif;
+ }
+ *{
+ 	margin:0;
+ 	padding: 0;
+ }
+ header{
+ 	margin: auto;
+  background-color: #7f8c8d;
+  display: block;
+  margin-left: 376px;
+ }
+ body{
+ 	font-family: 'Encode Sans Semi Expanded', sans-serif;
+  background-color: #7f8c8d
+ }
+ .top{
+ 	display: inline-block;
+ 	background-color: white;
+ 	width: 1050px;
+ 	margin-left: 51px;
+ }
+ .client{
+ 	text-align: center;
+ }
+ .soustitre{
+ padding-top: 15px;
+ padding-bottom: 25px;
+ text-align: center;
+
+ }
+ div.top a {
+ 	display: inline-block;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ 	text-decoration: none;
+ 	width: 24.55%;
+ 	border-right: 1px solid grey;
+ 	background-color: black;
+ 	color: white;
+ 	font-weight: bold;
+  text-align: center;
+  margin-left: 0.5px;
+  border-radius: 6px;
+ }
+ div.top a:hover{
+  background-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+ 	background-color: #5352ed;
+  color: #EA2027;
+ }
+ div.resultatfilm{
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ 	padding-left: 25px;
+ 	padding-right: 25px;
+  border: 1px solid;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+ }
+ div.resultatfilm:hover{
+ 	transition: box-shadow .1s ease-out 0s;
+ 	box-shadow: inset 0 0 0 2px #2C3A47;
+  color: #3867d6;
+}
+
+ div.search{
+ 	padding-bottom: 15px;
+ 	padding-top: 15px;
+ 	background-color: #bdc3c7;
+  text-align: center;
+ }
+ div.search2{
+   padding-bottom: 15px;
+   padding-top: 15px;
+
+ }
+ div.resultatabonnement{
+ 	text-align: center;
+ 	display: inline-block;
+ 	margin-left: 125px;
+ 	margin-top: 100px;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	width: 500px;
+ 	border: 2px solid black;
+ 	transition: box-shadow .1s ease-out 0s;
+ }
+ div.resultatabonnement:hover{
+ 	transition: box-shadow .1s ease-out 0s;
+ 	box-shadow: inset 0 0 0 2px #EA2027;
+  color: #006266
+ }
+ h1.abonnement{
+ 	padding-top: 15px;
+ 	padding-bottom: 25px;
+ 	text-align: center;
+ }
+ div.abonnement{
+ 	padding-left: 150px;
+ }
+ div.dernierfilm{
+ 	padding-top: 15px;
+ 	padding-bottom: 50px;
+ 	background-color: #f0f0f0;
+ 	width: 1050px;
+  /* text-align: center; */
+  display: block;
+  margin-left: 427px;
+ }
+ h2.dernierfilm{
+ 	text-align: center;
+ }
+ h3.dernierfilm{
+ 	text-align: center;
+ }
+ div.dernierfilm a{
+   text-align: center;
+ }
+ div.top h1{
+ 	padding-top: 25px;
+ 	padding-bottom: 25px;
+  background-color: #7f8c8d;
+  text-align: center;
+ }
+ div.resultatreduction{
+ 	text-align: center;
+ 	display: inline-block;
+ 	padding-left: 25px;
+ 	padding-right: 25px;
+ 	padding-top: 50px;
+ 	padding-bottom: 50px;
+ 	margin-top: 50px;
+ 	margin-left: 210px;
+ 	border: 1px solid grey;
+ 	width: 160px;
+ 	transition: box-shadow .1s ease-out 0s;
+ }
+ div.resultatreduction:hover{
+ 	transition: box-shadow .1s ease-out 0s;
+ 	box-shadow: inset 0 0 0 2px #d63031;
+  color: #2e86de;
+ }
+ h1.reduction{
+ 	padding-top: 15px;
+ 	padding-bottom: 25px;
+ 	text-align: center;
+ }
+ div.histo{
+ 	padding-top: 25px;
+ 	padding-bottom: 25px;
+ 	text-align: center;
+ }
+ div.client{
+ 	padding-top: 15px;
+  margin:auto;
+ }
+ div.film{
+ 	padding-top: 20px;
+ 	padding-bottom: 10px;
+ }
+ #confirm{
+ 	text-align: center;
+ }
+ div.user{
+ 	padding-bottom: 50px;
+ 	padding-top: 20px;
+ 	text-align: center;
+  border: 1px solid;
+  margin-bottom: 50px;
+  margin-right: 130px;
+  margin-left: 130px;
+ }
+ button.rightbutton{
+ 	float: right;
+  margin-right: 20px;
+ }
+ button.leftbutton{
+ 	float: left;
+  margin-left: 20px;
+ }
+ select.non{
+ 	display: none;
+ }
+ div.dernierfilm h2{
+ 	text-align: center;
+ }
+ button{
+ 	background-image : linear-gradient(#737373,#000000);
+ 	border-radius: 13px;
+ 	box-shadow: 4px 3px 5px #b0aeb0;
+ 	color: white;
+ 	padding: 5px 5px 5px 5px;
+ 	cursor: pointer;
+ }
+ button:hover{
+ 	background-image : linear-gradient(#d6d6d6,#363636);
+ }
+ select{
+ 	text-align: center;
+ 	font-size: 16px;
+ 	line-height: 1;
+ 	border: 0;
+ 	border-radius: 0;
+ 	height: 34px;
+ 	background: white;
+ }
+ textarea{
+ 	display: block;
+ 	margin-left: 300px;
+ }
+ button#buttonavis{
+ 	margin-left: 400px;
+ 	margin-top: 20px;
+ }
+ header h1{
+ 	font-family: 'Muli', sans-serif;
+ 	font-size: 100px;
+ 	text-shadow: 2px 2px #FF0000, -2px -2px blue;
+ }
